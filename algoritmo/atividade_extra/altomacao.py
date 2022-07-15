@@ -1,3 +1,4 @@
+# programa para span
 import pyautogui
 pyautogui.PAUSE = 1
 # pyautogui.keyDown('ctrl')
@@ -9,9 +10,11 @@ pyautogui.PAUSE = 1
 cont = 1
 pyautogui.hotkey('alt', 'f2')
 while cont < 15:
-    pyautogui.typewrite ('EU ESTOU PUTO COM VC')
+    pyautogui.typewrite ('teste ')
     pyautogui.press('enter')
     cont += 1
-# pyautogui.typewrite('vca84')
+# pyautogui.typewrite('')
 # pyautogui.press('enter')
+# teste
+
 
